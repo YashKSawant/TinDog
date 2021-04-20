@@ -1,0 +1,173 @@
+body{
+    font-family: 'Orelega One', cursive;
+    text-align: center;
+}
+h1, h2,h3{
+    font-family: 'Orelega One', cursive;
+
+}
+p{
+    color: gray;
+}
+a{
+    margin: 20px;
+}
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+/* Sections */
+.colored-section{
+    background-image: linear-gradient(to bottom right, #fa3956, #f77931);
+    color: white;
+}
+.white-section{
+    background-color: #fff;
+}
+
+/* Title */
+
+#title{
+    text-align: left;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu, sans-serif";
+    font-size: 40px;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Orelega One', cursive;
+}
+
+/* Buttons */
+.download-btn{
+    margin: 5% 5% 5% 0;
+}
+
+/* Iphone Image */
+
+.iphone-img{
+    width: 50%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
+}
+/* Responsive */
+@media (max-width: 992px){
+    #title{
+        text-align: center;
+    }
+    .iphone-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+    .testimonial-text{
+        line-height: 1;
+    }
+}
+
+/* Features */
+#features{
+    position: relative;
+}
+.feature-header{
+    font-weight: 1500;
+    padding: 3%;
+}
+.feature-box{
+    padding: 5%;
+}
+.feature-icon{
+    color: #fa3956;
+    margin-bottom: 1rem;
+}
+.feature-icon:hover{
+    color: #f77931;
+}
+
+
+/* Testemonials */
+
+#testimonials{
+    background-image: linear-gradient( #fa3956, #f77931,#fa3956);
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-indicators{
+    margin: 50px;
+}
+/* Press */
+#press{
+    padding-bottom: 4% ;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 40px;
+}
+
+/* Pricing */
+#pricing{
+    padding: 50px;
+}
+.pricing-column{
+    padding: 4% 4%;
+}
+.price-header{
+    font-size: 2rem;
+    font-weight: 1500;
+    padding: 3%;
+    color: white;
+    background-image: linear-gradient(#f77931, #fa3956);
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Call to Action */
+
+#cta .container-fluid{
+    padding: 3%;
+    margin-bottom: 40px;
+}
+#cta .big-heading{
+    font-size: 3rem;
+}
+
+.media-icons{
+    margin: 20px 10px;
+}
